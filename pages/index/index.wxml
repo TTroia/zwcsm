@@ -6,13 +6,13 @@
       <image src="/images/title.jpg" class="title_img"></image>
     </view>
     <view class="row">
-      <button class="title_btn">中</button>
-      <button class="title_btn">西</button>
-      <button class="title_btn">家</button>
+      <button bindtap="changeTap" data-index="0" style="{{title_btn_0}}" class="title_btn">中</button>
+      <button bindtap="changeTap" data-index="1" style="{{title_btn_1}}"id="title_btn_1" class="title_btn">西</button>
+      <button bindtap="changeTap" data-index="2" style="{{title_btn_2}}"id="title_btn_2" class="title_btn">家</button>
     </view>
   </view>
   <view class="content">
-    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" class="tap_swiper">
+    <swiper bindchange="swiperChange" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" current="{{current}}" class="tap_swiper">
       <swiper-item>
         <view class="tap">
           <scroll-view scroll-y="true" class="tap_scroll">

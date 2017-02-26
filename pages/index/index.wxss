@@ -24,20 +24,25 @@
 }
 
 .title_btn {
-  width: 100rpx;
-  height: 100rpx;
-  border-radius: 50%;
+  width: 150rpx;
+  height: 55rpx;
+  /*border-radius: 50%;*/
   background: #e8e8e8;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 1.5555555600000004;
 }
 
 .content {
   background: #f1fff6;
   width: 100%;
-  margin-top: 22rpx;
-  height: 1030rpx;
+  margin-top: 5rpx;
+  height: 1088rpx;
   display: flex;
   flex-wrap: wrap;
   border-top: solid #84ff6f 1rpx;
+  background-image: url("http://olz56fhru.bkt.clouddn.com/bk3.png");
+  background-size: 100% 100%;
 }
 
 .tap_swiper {
@@ -72,8 +77,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url("http://olz56fhru.bkt.clouddn.com/tap_bk.png");
+  background-size: 100% auto;
 }
-.tap_scroll{
+
+.tap_scroll {
   width: 100%;
   height: 1000rpx;
 }

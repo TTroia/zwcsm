@@ -8,5 +8,23 @@
     "navigationBarBackgroundColor": "#84ff6f",
     "navigationBarTitleText": "午饭吃点啥",
     "navigationBarTextStyle":"black"
+  },
+   "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"/images/list.png",
+      "selectedIconPath":"/images/list_selected.png",
+      "text": "懒汉模式"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath":"/images/shop.png",
+      "selectedIconPath":"/images/shop_selected.png",
+      "text": "懒汉模式"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath":"/images/talk.png",
+      "selectedIconPath":"/images/talk_selected.png",
+      "text": "讨论区"
+    }]
   }
 }
