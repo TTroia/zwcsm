@@ -1,3 +1,4 @@
+
 <!--index.wxml-->
 <view class="container">
   <view class="header">
@@ -11,6 +12,87 @@
     </view>
   </view>
   <view class="content">
-  
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" class="tap_swiper">
+      <swiper-item>
+        <view class="tap">
+          <scroll-view scroll-y="true" class="tap_scroll">
+            <view class="tap_row">
+              <view class="tap_item">粤菜</view>
+              <view class="tap_item">川菜</view>
+            </view>
+            <view class="tap_row">
+              <view class="tap_item">湘菜</view>
+              <view class="tap_item">闽菜</view>
+            </view>
+            <view class="tap_row">
+              <view class="tap_item">鲁菜</view>
+              <view class="tap_item">苏菜</view>
+            </view>
+            <view class="tap_row">
+              <view class="tap_item">徽菜</view>
+              <view class="tap_item">浙菜</view>
+            </view>
+            <view class="tap_row">
+              <view class="tap_item">日本料理</view>
+              <view class="tap_item">韩国料理</view>
+            </view>
+            <view class="tap_row">
+              <view class="tap_item">清真菜</view>
+              <view class="tap_item">印度菜</view>
+            </view>
+            <view class="tap_row">
+              <view class="tap_item">台湾菜</view>
+              <view class="tap_item">泰国菜</view>
+            </view>
+            <view class="tap_row">
+              <view class="tap_item">意大利菜</view>
+              <view class="tap_item">东南亚菜</view>
+            </view>
+          </scroll-view>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class="tap">
+          <view class="tap_row">
+            <view class="tap_item">挞类</view>
+            <view class="tap_item">披萨</view>
+          </view>
+          <view class="tap_row">
+            <view class="tap_item">蛋糕</view>
+            <view class="tap_item">面包</view>
+          </view>
+          <view class="tap_row">
+            <view class="tap_item">饼干</view>
+            <view class="tap_item">布丁</view>
+          </view>
+          <view class="tap_row">
+            <view class="tap_item">糖果</view>
+            <view class="tap_item">果冻</view>
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class="tap">
+          <view class="tap_row">
+            <view class="tap_item">家常菜</view>
+            <view class="tap_item">下酒菜</view>
+          </view>
+          <view class="tap_row">
+            <view class="tap_item">素菜</view>
+            <view class="tap_item">凉菜</view>
+          </view>
+          <view class="tap_row">
+            <view class="tap_item">面食</view>
+            <view class="tap_item">汤</view>
+            <view class="tap_item">粥</view>
+          </view>
+          <view class="tap_row">
+            <view class="tap_item">包子</view>
+            <view class="tap_item">烘焙</view>
+            <view class="tap_item">海鲜</view>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
   </view>
 </view>

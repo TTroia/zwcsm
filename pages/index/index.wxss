@@ -1,32 +1,79 @@
 /**index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
 }
-.header{
+
+.header {
   background: #84ff6f;
   height: 155rpx;
   width: 100%;
   flex-wrap: wrap;
   align-content: space-between;
 }
-.row{
+
+.row {
   display: flex;
   justify-content: center;
 }
-.title_img{
+
+.title_img {
   height: 120rpx;
   width: 570rpx;
 }
-.title_btn{
+
+.title_btn {
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
-  background:#e8e8e8;
+  background: #e8e8e8;
 }
-.content{
-  background: #bdffbc;
+
+.content {
+  background: #f1fff6;
   width: 100%;
   margin-top: 22rpx;
-  height: 1075rpx;
+  height: 1030rpx;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid #84ff6f 1rpx;
+}
+
+.tap_swiper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.tap {
+  display: flex;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+  padding-top: 50rpx;
+  padding-left: 50rpx;
+  padding-right: 50rpx;
+}
+
+.tap_row {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+  /*flex-direction: column;*/
+  align-content: space-between;
+}
+
+.tap_item {
+  border: solid black 1px;
+  border-radius: 10%;
+  margin: 20rpx 5rpx;
+  width: 40%;
+  height: 120rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tap_scroll{
+  width: 100%;
+  height: 1000rpx;
 }
