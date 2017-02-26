@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="row">
+      <image src="/images/title.jpg" class="title_img"></image>
+    </view>
+    <view class="row">
+      <button class="title_btn">中</button>
+      <button class="title_btn">西</button>
+      <button class="title_btn">家</button>
+    </view>
+  </view>
+  <view class="content">
+  
+  </view>
+</view>

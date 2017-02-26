@@ -1,0 +1,32 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  background: #84ff6f;
+  height: 155rpx;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+.title_img{
+  height: 120rpx;
+  width: 570rpx;
+}
+.title_btn{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background:#e8e8e8;
+}
+.content{
+  background: #bdffbc;
+  width: 100%;
+  margin-top: 22rpx;
+  height: 1075rpx;
+}
