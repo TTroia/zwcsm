@@ -24,6 +24,7 @@ Page({
     var that = this
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function (userInfo) {
+      console.log(userInfo);
       //更新数据
       that.setData({
         userInfo: userInfo
@@ -59,5 +60,10 @@ Page({
         title_btn_2:"box-shadow: 0px 0px 10px #888888;"
       })
     }
+  },
+  toList:function(event){
+    wx.navigateTo({
+      url: '/pages/list/list?sort='+event.target.dataset.sort+"&name="+event.target.dataset.name,
+    })
   }
 })

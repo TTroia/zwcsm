@@ -1,9 +1,10 @@
 {
   "pages":[
-    "pages/detail/detail",
+    
     "pages/index/index",
     "pages/logs/logs",
-    "pages/discuss/discuss"
+    "pages/discuss/discuss",
+    "pages/list/list"
     
   ],
   "window":{
@@ -19,7 +20,7 @@
       "selectedIconPath":"images/list_selected.png",
       "text": "懒汉模式"
     }, {
-      "pagePath": "pages/detail/detail",
+      "pagePath": "pages/log/log",
       "iconPath":"images/shop.png",
       "selectedIconPath":"images/shop_selected.png",
       "text": "懒汉模式"

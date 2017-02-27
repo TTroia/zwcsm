@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="header">
+    <view class="header_text">
+      <text>{{title}}</text>
+    </view>
+  </view>
+  <view class="content">
+    <scroll-view scroll-y="true" class="content_scroll"  bindscrolltolower="lower">
+      <block wx:for="{{foodList}}">
+        <view class="item">
+          <view class="thumb">
+            <image class="thumb_img" src="{{item.albums}}"></image>
+          </view>
+          <view class="introduce">
+            <view class="title">{{item.title}}</view>
+            <view class="intro">{{item.imtro}}...</view>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>

@@ -6,9 +6,9 @@
       <image src="/images/title.jpg" class="title_img"></image>
     </view>
     <view class="row">
-      <button bindtap="changeTap" data-index="0" style="{{title_btn_0}}" class="title_btn">中</button>
-      <button bindtap="changeTap" data-index="1" style="{{title_btn_1}}"id="title_btn_1" class="title_btn">西</button>
-      <button bindtap="changeTap" data-index="2" style="{{title_btn_2}}"id="title_btn_2" class="title_btn">家</button>
+      <button bindtap="changeTap" data-index="0" style="{{title_btn_0}}" class="title_btn">菜系</button>
+      <button bindtap="changeTap" data-index="1" style="{{title_btn_1}}" id="title_btn_1" class="title_btn">时尚</button>
+      <button bindtap="changeTap" data-index="2" style="{{title_btn_2}}" id="title_btn_2" class="title_btn">家常</button>
     </view>
   </view>
   <view class="content">
@@ -17,36 +17,32 @@
         <view class="tap">
           <scroll-view scroll-y="true" class="tap_scroll">
             <view class="tap_row">
-              <view class="tap_item">粤菜</view>
-              <view class="tap_item">川菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="11" data-name="粤菜">粤菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="10" data-name="川菜">川菜</view>
             </view>
             <view class="tap_row">
-              <view class="tap_item">湘菜</view>
-              <view class="tap_item">闽菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="12" data-name="湘菜">湘菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="101" data-name="闽菜">闽菜</view>
             </view>
             <view class="tap_row">
-              <view class="tap_item">鲁菜</view>
-              <view class="tap_item">苏菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="13" data-name="鲁菜">鲁菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="104" data-name="苏菜">苏菜</view>
             </view>
             <view class="tap_row">
-              <view class="tap_item">徽菜</view>
-              <view class="tap_item">浙菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="105" data-name="徽菜">徽菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="102" data-name="浙菜">浙菜</view>
             </view>
             <view class="tap_row">
-              <view class="tap_item">日本料理</view>
-              <view class="tap_item">韩国料理</view>
+              <view class="tap_item" bindtap="toList" data-sort="17" data-name="日料">日本料理</view>
+              <view class="tap_item" bindtap="toList" data-sort="18" data-name="韩料">韩国料理</view>
             </view>
             <view class="tap_row">
-              <view class="tap_item">清真菜</view>
-              <view class="tap_item">印度菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="111" data-name="清真">清真菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="127" data-name="印度">印度菜</view>
             </view>
             <view class="tap_row">
-              <view class="tap_item">台湾菜</view>
-              <view class="tap_item">泰国菜</view>
-            </view>
-            <view class="tap_row">
-              <view class="tap_item">意大利菜</view>
-              <view class="tap_item">东南亚菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="119" data-name="台湾">台湾菜</view>
+              <view class="tap_item" bindtap="toList" data-sort="123" data-name="泰国">泰国菜</view>
             </view>
           </scroll-view>
         </view>
@@ -54,42 +50,42 @@
       <swiper-item>
         <view class="tap">
           <view class="tap_row">
-            <view class="tap_item">挞类</view>
-            <view class="tap_item">披萨</view>
+            <view class="tap_item" bindtap="toList" data-sort="81" data-name="挞类">挞类</view>
+            <view class="tap_item" bindtap="toList" data-sort="76" data-name="披萨">披萨</view>
           </view>
           <view class="tap_row">
-            <view class="tap_item">蛋糕</view>
-            <view class="tap_item">面包</view>
+            <view class="tap_item" bindtap="toList" data-sort="73" data-name="蛋糕">蛋糕</view>
+            <view class="tap_item" bindtap="toList" data-sort="74" data-name="面包">面包</view>
           </view>
           <view class="tap_row">
-            <view class="tap_item">饼干</view>
-            <view class="tap_item">布丁</view>
+            <view class="tap_item" bindtap="toList" data-sort="75" data-name="饼干">饼干</view>
+            <view class="tap_item" bindtap="toList" data-sort="80" data-name="布丁">布丁</view>
           </view>
           <view class="tap_row">
-            <view class="tap_item">糖果</view>
-            <view class="tap_item">果冻</view>
+            <view class="tap_item" bindtap="toList" data-sort="79" data-name="糖果">糖果</view>
+            <view class="tap_item" bindtap="toList" data-sort="78" data-name="果冻">果冻</view>
           </view>
         </view>
       </swiper-item>
       <swiper-item>
         <view class="tap">
           <view class="tap_row">
-            <view class="tap_item">家常菜</view>
-            <view class="tap_item">下酒菜</view>
+            <view class="tap_item" bindtap="toList" data-sort="1" data-name="家常">家常菜</view>
+            <view class="tap_item" bindtap="toList" data-sort="58" data-name="下酒">下酒菜</view>
           </view>
           <view class="tap_row">
-            <view class="tap_item">素菜</view>
-            <view class="tap_item">凉菜</view>
+            <view class="tap_item" bindtap="toList" data-sort="4" data-name="素菜">素菜</view>
+            <view class="tap_item" bindtap="toList" data-sort="5" data-name="凉菜">凉菜</view>
           </view>
           <view class="tap_row">
-            <view class="tap_item">面食</view>
-            <view class="tap_item">汤</view>
-            <view class="tap_item">粥</view>
+            <view class="tap_item" bindtap="toList" data-sort="7" data-name="面食">面食</view>
+            <view class="tap_item" bindtap="toList" data-sort="8" data-name="汤">汤</view>
+            <view class="tap_item" bindtap="toList" data-sort="65" data-name="粥">粥</view>
           </view>
           <view class="tap_row">
-            <view class="tap_item">包子</view>
-            <view class="tap_item">烘焙</view>
-            <view class="tap_item">海鲜</view>
+            <view class="tap_item" bindtap="toList" data-sort="71" data-name="包子">包子</view>
+            <view class="tap_item" bindtap="toList" data-sort="6" data-name="烘焙">烘焙</view>
+            <view class="tap_item" bindtap="toList" data-sort="62" data-name="海鲜">海鲜</view>
           </view>
         </view>
       </swiper-item>
