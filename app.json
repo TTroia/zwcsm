@@ -1,7 +1,10 @@
 {
   "pages":[
+    "pages/detail/detail",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/discuss/discuss"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -12,18 +15,18 @@
    "tabBar": {
     "list": [{
       "pagePath": "pages/index/index",
-      "iconPath":"/images/list.png",
-      "selectedIconPath":"/images/list_selected.png",
+      "iconPath":"images/list.png",
+      "selectedIconPath":"images/list_selected.png",
       "text": "懒汉模式"
     }, {
-      "pagePath": "pages/logs/logs",
-      "iconPath":"/images/shop.png",
-      "selectedIconPath":"/images/shop_selected.png",
+      "pagePath": "pages/detail/detail",
+      "iconPath":"images/shop.png",
+      "selectedIconPath":"images/shop_selected.png",
       "text": "懒汉模式"
     }, {
-      "pagePath": "pages/logs/logs",
-      "iconPath":"/images/talk.png",
-      "selectedIconPath":"/images/talk_selected.png",
+      "pagePath": "pages/discuss/discuss",
+      "iconPath":"images/talk.png",
+      "selectedIconPath":"images/talk_selected.png",
       "text": "讨论区"
     }]
   }

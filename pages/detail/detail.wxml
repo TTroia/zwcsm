@@ -1,0 +1,84 @@
+<view class="container">
+  <view class="header">
+    <view class="header_text">
+      <text>{{foodName}}</text>
+    </view>
+  </view>
+  <view class="content">
+    <scroll-view scroll-y="true" class="content_scroll">
+      
+      <view class="item">
+        <view class="thumb">
+          <image class="thumb_img" src="http://img.juhe.cn/cookbook/t/1/909_135871.jpg"></image>
+        </view>
+        <view class="introduce">
+          <view class="title">鱼香肉丝</view>
+          <view class="intro">菜谱来自电视节目：中华美食频道的...</view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="thumb">
+          <image class="thumb_img" src="http://img.juhe.cn/cookbook/t/1/909_135871.jpg"></image>
+        </view>
+        <view class="introduce">
+          <view class="title">鱼香肉丝</view>
+          <view class="intro">菜谱来自电视节目：中华美食频道的...</view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="thumb">
+          <image class="thumb_img" src="http://img.juhe.cn/cookbook/t/1/909_135871.jpg"></image>
+        </view>
+        <view class="introduce">
+          <view class="title">鱼香肉丝</view>
+          <view class="intro">菜谱来自电视节目：中华美食频道的...</view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="thumb">
+          <image class="thumb_img" src="http://img.juhe.cn/cookbook/t/1/909_135871.jpg"></image>
+        </view>
+        <view class="introduce">
+          <view class="title">鱼香肉丝</view>
+          <view class="intro">菜谱来自电视节目：中华美食频道的...</view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="thumb">
+          <image class="thumb_img" src="http://img.juhe.cn/cookbook/t/1/909_135871.jpg"></image>
+        </view>
+        <view class="introduce">
+          <view class="title">鱼香肉丝</view>
+          <view class="intro">菜谱来自电视节目：中华美食频道的...</view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="thumb">
+          <image class="thumb_img" src="http://img.juhe.cn/cookbook/t/1/909_135871.jpg"></image>
+        </view>
+        <view class="introduce">
+          <view class="title">鱼香肉丝</view>
+          <view class="intro">菜谱来自电视节目：中华美食频道的...</view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="thumb">
+          <image class="thumb_img" src="http://img.juhe.cn/cookbook/t/1/909_135871.jpg"></image>
+        </view>
+        <view class="introduce">
+          <view class="title">鱼香肉丝</view>
+          <view class="intro">菜谱来自电视节目：中华美食频道的...</view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="thumb">
+          <image class="thumb_img" src="http://img.juhe.cn/cookbook/t/1/909_135871.jpg"></image>
+        </view>
+        <view class="introduce">
+          <view class="title">鱼香肉丝</view>
+          <view class="intro">菜谱来自电视节目：中华美食频道的...</view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
